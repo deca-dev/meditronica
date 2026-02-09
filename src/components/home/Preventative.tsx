@@ -12,7 +12,7 @@ export default function Preventative() {
           </div>
 
           <div className={styles.right}>
-            <h3 className={styles.title}>Mantenimiento Preventivo</h3>
+            <h3 className={styles.title}>Mantenimiento Preventivo y Correctivo</h3>
             <p className={styles.subtitle}>Los servicios de mantenimiento en equipo médico incluyen:</p>
             <ul className={styles.list}>
               <li>Verificación de salida</li>
@@ -20,7 +20,7 @@ export default function Preventative() {
               <li>Inspecciones físicas</li>
             </ul>
 
-            <button className={styles.btn} type="button">MANTENIMIENTO PREVENTIVO</button>
+            <button className={styles.btn} type="button">MANTENIMIENTO</button>
           </div>
         </div>
       </Container>

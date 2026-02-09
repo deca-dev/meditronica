@@ -66,6 +66,10 @@ export default function BrandRow() {
   return (
     <section className={styles.section} aria-label="Marcas">
       <Container>
+        {/* ✅ Title */}
+        <div className={styles.header}>
+          <h2 className={styles.title}>Especialistas en marcas nacionales e internacionales</h2>
+        </div>
         <div className={styles.carousel} role="region" aria-roledescription="carousel" aria-label="Carrusel de marcas">
           <div className={styles.viewport}>
             <div className={`${styles.track} ${styles.left}`} aria-hidden="true">

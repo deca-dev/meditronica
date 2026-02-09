@@ -36,8 +36,8 @@ const cards = [
   },
   {
     icon: <HourglassIcon />,
-    title: 'Proveemos equipo en renta para asistir a nuestros clientes a cubrir picos en la demanda, situaciones imprevistas o evaluaciones.',
-    button: 'RENTA DE EQUIPO MÉDICO'
+    title: 'Suministramos insumos médicos confiables y certificados, con garantía y acompañamiento técnico especializado antes, durante y después de tu compra.',
+    button: 'VENTA DE INSUMOS'
   }
 ];
 

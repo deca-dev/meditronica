@@ -1,6 +1,8 @@
 .header {
   background: var(--color-bg);
   padding: 18px 0;
+  position: relative;
+  z-index: 50;
 }
 
 .row {
@@ -29,6 +31,96 @@
 .link:hover { color: var(--color-accent); }
 .active { color: var(--color-accent); }
 
+/* ===== Mobile hamburger ===== */
+.burger {
+  display: none;
+  width: 44px;
+  height: 44px;
+  border: 1px solid rgba(0,0,0,0.10);
+  background: #fff;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  cursor: pointer;
+}
+
+.burgerLine {
+  display: block;
+  width: 18px;
+  height: 2px;
+  background: rgba(0,0,0,0.70);
+  border-radius: 999px;
+  transition: transform 180ms ease, opacity 180ms ease;
+}
+
+/* Animate to X */
+.lineTopOpen { transform: translateY(8px) rotate(45deg); }
+.lineMidOpen { opacity: 0; }
+.lineBotOpen { transform: translateY(-8px) rotate(-45deg); }
+
+/* ===== Overlay + menu ===== */
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.35);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 180ms ease;
+  z-index: 60;
+}
+
+.overlayOpen {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.mobileMenu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100dvh;
+  width: min(86vw, 340px);
+  background: #fff;
+  border-left: 1px solid rgba(0,0,0,0.10);
+  transform: translateX(100%);
+  transition: transform 220ms ease;
+  z-index: 70;
+  padding: 18px 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.mobileMenuOpen { transform: translateX(0%); }
+
+.mobileNav {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-top: 10px;
+}
+
+.mobileLink {
+  text-decoration: none;
+  color: rgba(0,0,0,0.72);
+  font-weight: 800;
+  font-size: 14px;
+  padding: 12px 10px;
+  border-radius: 12px;
+}
+
+.mobileLink:hover {
+  background: rgba(0,0,0,0.04);
+}
+
+.mobileActive {
+  color: var(--color-accent);
+  background: rgba(43, 85, 255, 0.10);
+}
+
+/* Responsive */
 @media (max-width: 860px) {
   .nav { display: none; }
+  .burger { display: inline-flex; flex-direction: column; }
+  .logo { height: 72px; }
 }
