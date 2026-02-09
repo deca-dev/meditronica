@@ -1,0 +1,90 @@
+.footer {
+  background: #3f4a53;
+  color: #eef2f6;
+  margin-top: 64px;
+}
+
+.contactBar {
+  padding: 26px 0;
+  border-top: 1px solid rgba(255,255,255,0.08);
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+.contactGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  align-items: center;
+}
+
+.contactItem {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  border: 1px solid rgba(255,255,255,0.30);
+  border-radius: 8px;
+  display: grid;
+  place-items: center;
+  color: rgba(255,255,255,0.92);
+}
+
+.icon svg { width: 20px; height: 20px; }
+
+.label {
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  opacity: 0.9;
+}
+
+.value {
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 3px;
+}
+
+.bottom { padding: 18px 0 26px; }
+
+.bottomRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.brandBlock { display: flex; align-items: center; gap: 12px; }
+
+.logo {
+  height: 34px;
+  width: auto;
+  display: block;
+  filter: saturate(0.9);
+}
+
+.copy { font-size: 12px; opacity: 0.9; }
+.copy div:first-child { font-weight: 700; margin-bottom: 2px; }
+
+.miniLinks {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.miniLinks a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.miniLinks a:hover { color: rgba(255,255,255,1); }
+
+@media (max-width: 860px) {
+  .contactGrid { grid-template-columns: 1fr; }
+  .bottomRow { flex-direction: column; align-items: flex-start; }
+  .miniLinks { justify-content: flex-start; }
+}

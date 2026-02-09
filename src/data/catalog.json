@@ -1,0 +1,535 @@
+{
+  "meta": {
+    "currency": "MXN",
+    "pageSize": 12
+  },
+  "categories": [
+    {
+      "id": "all",
+      "name": "Todas las categorías",
+      "hero": {
+        "title": "Catálogo de productos",
+        "description": "Explora equipos, refacciones y accesorios. Filtra por categoría, marca y modelo.",
+        "backgroundImage": "/images/catalog/hero/catalog-default.jpg",
+        "kicker": "MEDITRONICA"
+      }
+    },
+    {
+      "id": "monitoreo",
+      "name": "Monitoreo",
+      "hero": {
+        "title": "Monitoreo y Signos Vitales",
+        "description": "Monitores y accesorios para supervisión clínica en tiempo real.",
+        "backgroundImage": "/images/catalog/hero/monitoreo.jpg",
+        "kicker": "CATEGORÍA"
+      }
+    },
+    {
+      "id": "cirugia",
+      "name": "Cirugía",
+      "hero": {
+        "title": "Equipamiento para Cirugía",
+        "description": "Electrocauterios y mesas quirúrgicas para procedimientos seguros y eficientes.",
+        "backgroundImage": "/images/catalog/hero/cirugia.jpg",
+        "kicker": "CATEGORÍA"
+      }
+    },
+    {
+      "id": "emergencia",
+      "name": "Emergencia",
+      "hero": {
+        "title": "Equipos para Emergencia",
+        "description": "Desfibriladores y equipos críticos para respuesta inmediata.",
+        "backgroundImage": "/images/catalog/hero/emergencia.jpg",
+        "kicker": "CATEGORÍA"
+      }
+    },
+    {
+      "id": "anestesia",
+      "name": "Anestesia",
+      "hero": {
+        "title": "Equipos de Anestesia",
+        "description": "Máquinas de anestesia y componentes para quirófano.",
+        "backgroundImage": "/images/catalog/hero/anestesia.jpg",
+        "kicker": "CATEGORÍA"
+      }
+    },
+    {
+      "id": "esterilizacion",
+      "name": "Esterilización",
+      "hero": {
+        "title": "Esterilización y Autoclaves",
+        "description": "Autoclaves y soluciones para reprocesamiento y esterilización.",
+        "backgroundImage": "/images/catalog/hero/esterilizacion.jpg",
+        "kicker": "CATEGORÍA"
+      }
+    },
+    {
+      "id": "neonatal",
+      "name": "Neonatal",
+      "hero": {
+        "title": "Equipo Neonatal",
+        "description": "Soluciones para cuidado neonatal: incubación, termorregulación y soporte.",
+        "backgroundImage": "/images/catalog/hero/neonatal.jpg",
+        "kicker": "CATEGORÍA"
+      }
+    },
+    {
+      "id": "respiratorio",
+      "name": "Respiratorio",
+      "hero": {
+        "title": "Respiratorio y Oxigenoterapia",
+        "description": "Ventiladores y concentradores de oxígeno para soporte respiratorio.",
+        "backgroundImage": "/images/catalog/hero/respiratorio.jpg",
+        "kicker": "CATEGORÍA"
+      }
+    },
+    {
+      "id": "diagnostico",
+      "name": "Diagnóstico",
+      "hero": {
+        "title": "Diagnóstico",
+        "description": "Equipos para diagnóstico y monitoreo especializado.",
+        "backgroundImage": "/images/catalog/hero/diagnostico.jpg",
+        "kicker": "CATEGORÍA"
+      }
+    },
+    {
+      "id": "infusion",
+      "name": "Infusión",
+      "hero": {
+        "title": "Infusión",
+        "description": "Bombas de infusión para administración precisa y segura de medicamentos.",
+        "backgroundImage": "/images/catalog/hero/infusion.jpg",
+        "kicker": "CATEGORÍA"
+      }
+    },
+    {
+      "id": "dental",
+      "name": "Dental",
+      "hero": {
+        "title": "Dental",
+        "description": "Refacciones y accesorios dentales (próximamente).",
+        "backgroundImage": "/images/catalog/hero/dental.jpg",
+        "kicker": "CATEGORÍA"
+      }
+    }
+  ],
+  "products": [
+    {
+      "id": "mon-cardiocap5",
+      "name": "Monitor de signos vitales",
+      "sku": "CARDIOCAP-5",
+      "categoryId": "monitoreo",
+      "brand": "Datex Ohmeda",
+      "model": "Cardiocap 5",
+      "price": null,
+      "image": "/images/catalog/products/mon-cardiocap5.png",
+      "accessories": [
+        "Cable ECG",
+        "Cable SpO2",
+        "PANI",
+        "Trampa de agua y línea de capnografía",
+        "Cable de línea"
+      ],
+      "description": "Monitor de alta precisión. Supervisa y registra parámetros vitales en tiempo real. Ideal para hospitales, clínicas y centros de salud."
+    },
+    {
+      "id": "mon-mcare300",
+      "name": "Monitor de signos vitales",
+      "sku": "MCARE-300",
+      "categoryId": "monitoreo",
+      "brand": "Space Lab",
+      "model": "mCare 300",
+      "price": null,
+      "image": "/images/catalog/products/mon-mcare300.png",
+      "accessories": [
+        "Cable ECG",
+        "Cable SpO2",
+        "PANI"
+      ],
+      "description": "Supervisa y registra parámetros vitales en tiempo real. Ideal para hospitales, clínicas y centros de salud."
+    },
+    {
+      "id": "mon-accutorv",
+      "name": "Monitor de signos vitales",
+      "sku": "ACCUTOR-V",
+      "categoryId": "monitoreo",
+      "brand": "Mindray",
+      "model": "Accutor V",
+      "price": null,
+      "image": "/images/catalog/products/mon-accutorv.png",
+      "accessories": [
+        "PANI",
+        "SpO2",
+        "Batería de respaldo"
+      ],
+      "description": "Monitor de alta precisión para consultorios o atención continua. Supervisa y registra parámetros vitales en tiempo real."
+    },
+    {
+      "id": "mon-rivital",
+      "name": "Monitor de signos vitales",
+      "sku": "RI-VITAL",
+      "categoryId": "monitoreo",
+      "brand": "Riester",
+      "model": "Ri-vital",
+      "price": null,
+      "image": "/images/catalog/products/mon-rivital.png",
+      "accessories": [
+        "Cable SpO2",
+        "PANI",
+        "Temperatura"
+      ],
+      "description": "Monitor de alta precisión para control de enfermería, consultorio o atención continua. Supervisa y registra parámetros vitales en tiempo real."
+    },
+    {
+      "id": "mon-dash4000",
+      "name": "Monitor de signos vitales",
+      "sku": "DASH-4000",
+      "categoryId": "monitoreo",
+      "brand": "General Electric",
+      "model": "Dash 4000",
+      "price": null,
+      "image": "/images/catalog/products/mon-dash4000.png",
+      "accessories": [
+        "Cable ECG",
+        "Cable SpO2",
+        "PANI"
+      ],
+      "description": "Monitor de alta precisión. Supervisa y registra parámetros vitales en tiempo real. Ideal para hospitales, clínicas y centros de salud."
+    },
+    {
+      "id": "mon-mp50",
+      "name": "Monitor de signos vitales",
+      "sku": "MP-50",
+      "categoryId": "monitoreo",
+      "brand": "HP",
+      "model": "MP 50",
+      "price": null,
+      "image": "/images/catalog/products/mon-mp50.png",
+      "accessories": [
+        "Cable ECG",
+        "Cable SpO2",
+        "PANI"
+      ],
+      "description": "Monitor de alta precisión. Supervisa y registra parámetros vitales en tiempo real. Ideal para hospitales, clínicas y centros de salud."
+    },
+    {
+      "id": "mon-mp30",
+      "name": "Monitor de signos vitales",
+      "sku": "MP-30",
+      "categoryId": "monitoreo",
+      "brand": "HP",
+      "model": "MP 30",
+      "price": null,
+      "image": "/images/catalog/products/mon-mp30.png",
+      "accessories": [
+        "Cable ECG",
+        "Cable SpO2",
+        "PANI"
+      ],
+      "description": "Monitor de alta precisión. Supervisa y registra parámetros vitales en tiempo real. Ideal para hospitales, clínicas y centros de salud."
+    },
+    {
+      "id": "caut-forcefx",
+      "name": "Electrocauterio",
+      "sku": "FORCE-FX",
+      "categoryId": "cirugia",
+      "brand": "Covidien",
+      "model": "Force FX",
+      "price": null,
+      "image": "/images/catalog/products/caut-forcefx.png",
+      "accessories": [
+        "Pedal bipolar",
+        "Lápiz desechable",
+        "Placa de acero inoxidable"
+      ],
+      "description": "Equipo de alta precisión para procedimientos quirúrgicos. Corte y coagulación con tecnología monopolar y bipolar. Ideal para cirugías generales, laparoscopia y procedimientos especializados."
+    },
+    {
+      "id": "caut-vulcan",
+      "name": "Electrocauterio",
+      "sku": "VULCAN-GENERATOR",
+      "categoryId": "cirugia",
+      "brand": "Smith & Nephew",
+      "model": "Vulcan Generator",
+      "price": null,
+      "image": "/images/catalog/products/caut-vulcan.png",
+      "accessories": [
+        "Lápiz desechable",
+        "Placa de acero inoxidable"
+      ],
+      "description": "Equipo de alta precisión para procedimientos quirúrgicos. Corte y coagulación con tecnología monopolar y bipolar. Ideal para cirugías generales, laparoscopia y procedimientos especializados."
+    },
+    {
+      "id": "caut-system7500",
+      "name": "Electrocauterio",
+      "sku": "SYSTEM-7500",
+      "categoryId": "cirugia",
+      "brand": "ConMed",
+      "model": "System 7500",
+      "price": null,
+      "image": "/images/catalog/products/caut-system7500.png",
+      "accessories": [
+        "Pedal bipolar",
+        "Lápiz desechable",
+        "Placa de acero inoxidable"
+      ],
+      "description": "Equipo de alta precisión para procedimientos quirúrgicos. Corte y coagulación con tecnología monopolar y bipolar. Ideal para cirugías generales, laparoscopia y procedimientos especializados."
+    },
+    {
+      "id": "mesa-steris3085",
+      "name": "Mesa quirúrgica",
+      "sku": "3085",
+      "categoryId": "cirugia",
+      "brand": "Steris",
+      "model": "3085",
+      "price": null,
+      "image": "/images/catalog/products/mesa-steris3085.png",
+      "accessories": [],
+      "description": "Mesa hidráulica y eléctrica de alta precisión. Ajustes precisos para posiciones y ángulos quirúrgicos. Diseñada para procedimientos médicos seguros y eficientes."
+    },
+    {
+      "id": "def-codemasterxl",
+      "name": "Desfibrilador",
+      "sku": "CODEMASTER-XL",
+      "categoryId": "emergencia",
+      "brand": "HP",
+      "model": "CodeMaster XL",
+      "price": null,
+      "image": "/images/catalog/products/def-codemasterxl.png",
+      "accessories": [
+        "Palas adulto/pediátrico",
+        "Cable de línea",
+        "Cable ECG"
+      ],
+      "description": "Equipo de alta eficiencia. Restablece ritmo cardíaco normal en casos de paro cardíaco. Ideal para hospitales, clínicas, centros de salud y áreas públicas."
+    },
+    {
+      "id": "def-lifepak9f",
+      "name": "Desfibrilador",
+      "sku": "LIFEPAK-9F",
+      "categoryId": "emergencia",
+      "brand": "Physio-Control",
+      "model": "Lifepak 9F",
+      "price": null,
+      "image": "/images/catalog/products/def-lifepak9f.png",
+      "accessories": [
+        "Batería de respaldo",
+        "Palas adulto/pediátrico"
+      ],
+      "description": "Equipo de alta eficiencia. Restablece ritmo cardíaco normal en casos de paro cardíaco. Ideal para hospitales, clínicas, centros de salud y áreas públicas."
+    },
+    {
+      "id": "anes-advance",
+      "name": "Máquina de anestesia",
+      "sku": "ADVANCE",
+      "categoryId": "anestesia",
+      "brand": "Datex Ohmeda",
+      "model": "Advance",
+      "price": null,
+      "image": "/images/catalog/products/anes-advance.png",
+      "accessories": [],
+      "description": "Equipo avanzado para procedimientos quirúrgicos. Controla y administra gases anestésicos con precisión y seguridad. Ideal para hospitales, clínicas y salas de operaciones especializadas."
+    },
+    {
+      "id": "anes-narcomed2b",
+      "name": "Máquina de anestesia",
+      "sku": "NARCOMED-2B",
+      "categoryId": "anestesia",
+      "brand": "Dräger",
+      "model": "Narcomed 2B",
+      "price": null,
+      "image": "/images/catalog/products/anes-narcomed2b.png",
+      "accessories": [],
+      "description": "Equipo avanzado para procedimientos quirúrgicos. Controla y administra gases anestésicos con precisión y seguridad. Ideal para hospitales, clínicas y salas de operaciones especializadas."
+    },
+    {
+      "id": "anes-narcomat",
+      "name": "Máquina de anestesia",
+      "sku": "NARCOMAT",
+      "categoryId": "anestesia",
+      "brand": "Heyer",
+      "model": "Narcomat",
+      "price": null,
+      "image": "/images/catalog/products/anes-narcomat.png",
+      "accessories": [],
+      "description": "Equipo avanzado para procedimientos quirúrgicos. Controla y administra gases anestésicos con precisión y seguridad. Ideal para hospitales, clínicas y salas de operaciones especializadas."
+    },
+    {
+      "id": "anes-aestiva5",
+      "name": "Máquina de anestesia",
+      "sku": "AESTIVA-5",
+      "categoryId": "anestesia",
+      "brand": "Datex Ohmeda",
+      "model": "Aestiva /5",
+      "price": null,
+      "image": "/images/catalog/products/anes-aestiva5.png",
+      "accessories": [],
+      "description": "Equipo avanzado para procedimientos quirúrgicos. Controla y administra gases anestésicos con precisión y seguridad. Ideal para hospitales, clínicas y salas de operaciones especializadas."
+    },
+    {
+      "id": "anes-primus",
+      "name": "Máquina de anestesia",
+      "sku": "PRIMUS",
+      "categoryId": "anestesia",
+      "brand": "Dräger",
+      "model": "Primus",
+      "price": null,
+      "image": "/images/catalog/products/anes-primus.png",
+      "accessories": [
+        "Vaporizador (Vapor 2000)",
+        "Capnografía",
+        "ECG",
+        "Oximetría",
+        "PANI",
+        "Temperatura",
+        "Manguera de oxígeno"
+      ],
+      "description": "Equipo avanzado para procedimientos quirúrgicos. Controla y administra gases anestésicos con precisión y seguridad. Ideal para hospitales, clínicas y salas de operaciones especializadas."
+    },
+    {
+      "id": "auto-60l",
+      "name": "Autoclave",
+      "sku": "60L",
+      "categoryId": "esterilizacion",
+      "brand": "Meditronica",
+      "model": "60 litros",
+      "price": null,
+      "image": "/images/catalog/products/auto-60l.png",
+      "accessories": [],
+      "description": "Equipo de alta presión y temperatura. Elimina bacterias, virus y microorganismos en instrumentos médicos. Seguridad y eficiencia en la esterilización de equipos hospitalarios."
+    },
+    {
+      "id": "neo-isolette",
+      "name": "Cuna de calor térmica",
+      "sku": "ISOLETTE",
+      "categoryId": "neonatal",
+      "brand": "Saps",
+      "model": "Isolette",
+      "price": null,
+      "image": "/images/catalog/products/neo-isolette.png",
+      "accessories": [],
+      "description": "Equipo para cuidado neonatal. Mantiene temperatura óptima para recién nacidos y bebés prematuros. Seguridad y comodidad para pacientes pediátricos vulnerables."
+    },
+    {
+      "id": "neo-c2000",
+      "name": "Incubadora",
+      "sku": "C-2000",
+      "categoryId": "neonatal",
+      "brand": "Dräger",
+      "model": "C-2000",
+      "price": null,
+      "image": "/images/catalog/products/neo-c2000.png",
+      "accessories": [],
+      "description": "Incubadora neonatal avanzada para cuidado intensivo. Controla temperatura, humedad y oxígeno para un ambiente óptimo. Protección y seguridad para recién nacidos y bebés prematuros."
+    },
+    {
+      "id": "resp-ht70",
+      "name": "Ventilador",
+      "sku": "HT-70",
+      "categoryId": "respiratorio",
+      "brand": "New Port",
+      "model": "HT-70",
+      "price": null,
+      "image": "/images/catalog/products/resp-ht70.png",
+      "accessories": [],
+      "description": "Ventilador de alta precisión y eficiencia. Suministra oxígeno y soporte respiratorio para pacientes críticos. Ideal para unidades de cuidados intensivos y salas de hospital."
+    },
+    {
+      "id": "resp-savina",
+      "name": "Ventilador",
+      "sku": "SAVINA",
+      "categoryId": "respiratorio",
+      "brand": "Dräger",
+      "model": "Savina",
+      "price": null,
+      "image": "/images/catalog/products/resp-savina.png",
+      "accessories": [],
+      "description": "Ventilador de alta precisión y eficiencia. Suministra oxígeno y soporte respiratorio para pacientes críticos. Ideal para unidades de cuidados intensivos y salas de hospital."
+    },
+    {
+      "id": "resp-840",
+      "name": "Ventilador",
+      "sku": "PB-840",
+      "categoryId": "respiratorio",
+      "brand": "Nellcor Puritan Bennett",
+      "model": "840",
+      "price": null,
+      "image": "/images/catalog/products/resp-840.png",
+      "accessories": [
+        "Compresor integrado",
+        "Manguera de aire y oxígeno",
+        "Baterías de respaldo",
+        "Pantalla touch",
+        "Brazo porta circuito",
+        "Celda de oxígeno (nueva)",
+        "Filtro inspiratorio adulto/pediátrico",
+        "Filtro inspiratorio neonatal",
+        "Soporte para filtro neonatal"
+      ],
+      "description": "Ventilador con modos neonatal, pediátrico y adulto. Diseñado para soporte respiratorio en entornos clínicos; incluye compresor integrado y accesorios para circuito y filtración (ver listado)."
+    },
+    {
+      "id": "resp-avea",
+      "name": "Ventilador",
+      "sku": "AVEA",
+      "categoryId": "respiratorio",
+      "brand": "Viasys",
+      "model": "Avea",
+      "price": null,
+      "image": "/images/catalog/products/resp-avea.png",
+      "accessories": [
+        "Manguera de oxígeno",
+        "Manguera de aire",
+        "Celda de oxígeno (nueva)",
+        "Batería de respaldo",
+        "Pantalla touch",
+        "Hoja de servicio preventivo"
+      ],
+      "description": "Ventilador con modos neonatal, pediátrico y adulto. Diseñado para soporte respiratorio en entornos clínicos."
+    },
+    {
+      "id": "resp-concentrador",
+      "name": "Concentrador de oxígeno",
+      "sku": "N/A",
+      "categoryId": "respiratorio",
+      "brand": "No especificado",
+      "model": "No especificado",
+      "price": null,
+      "image": "/images/catalog/products/resp-concentrador.png",
+      "accessories": [],
+      "description": "Equipo portátil y silencioso. Extrae oxígeno puro del aire para pacientes con necesidades respiratorias. Ideal para uso en hogar, clínica o viajes."
+    },
+    {
+      "id": "dx-ecg-meditrace",
+      "name": "Electrocardiograma (ECG)",
+      "sku": "ECG-12D",
+      "categoryId": "diagnostico",
+      "brand": "Meditrace",
+      "model": "12 derivaciones",
+      "price": null,
+      "image": "/images/catalog/products/dx-ecg-meditrace.png",
+      "accessories": [
+        "Cable de 12 derivaciones",
+        "Pinzas",
+        "Peras",
+        "Papel",
+        "Batería de respaldo"
+      ],
+      "description": "ECG portátil y avanzado. Registra actividad cardíaca precisa y detallada en 12 derivaciones. Ideal para diagnóstico y monitoreo en consultorios, hospitales y unidades móviles."
+    },
+    {
+      "id": "inf-colleaguecxe",
+      "name": "Bomba de infusión",
+      "sku": "COLLEAGUE-CXE",
+      "categoryId": "infusion",
+      "brand": "Baxter",
+      "model": "Colleague CXE",
+      "price": null,
+      "image": "/images/catalog/products/inf-colleaguecxe.png",
+      "accessories": [],
+      "description": "Bomba de infusión precisa y segura para administración de medicamentos. Controla flujo de líquidos y medicamentos con exactitud y estabilidad. Ideal para hospitales, clínicas y cuidados intensivos para pacientes pediátricos y adultos."
+    }
+  ]
+}

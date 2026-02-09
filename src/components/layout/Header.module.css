@@ -1,0 +1,34 @@
+.header {
+  background: var(--color-bg);
+  padding: 18px 0;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.logoLink { display: inline-flex; align-items: center; }
+.logo { height: 94px; width: auto; display: block; }
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+}
+
+.link {
+  font-size: 13px;
+  color: var(--color-text);
+  text-decoration: none;
+  padding: 6px 0;
+}
+
+.link:hover { color: var(--color-accent); }
+.active { color: var(--color-accent); }
+
+@media (max-width: 860px) {
+  .nav { display: none; }
+}
